@@ -181,6 +181,7 @@ body.dark-theme{
   z-index: var(--z-fixed);
   transition: box-shadow .4s, backgroung-color .4s;
   height: 40px;
+  padding-top: 10px;
 
 }
 .nav{
