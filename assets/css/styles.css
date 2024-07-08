@@ -137,6 +137,9 @@ body.dark-theme{
 .dark-theme::-webkit-scrollbar-thumb:hover{
   background-color: hsl(230, 16%, 35%);
 }
+.dark-theme .footer__copy{
+  color: whitesmoke;
+}
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -177,6 +180,7 @@ body.dark-theme{
   background-color: var(--body-color);
   z-index: var(--z-fixed);
   transition: box-shadow .4s, backgroung-color .4s;
+  height: 40px;
 
 }
 .nav{
@@ -309,17 +313,14 @@ body.dark-theme{
   padding: 50px;
   float: left;
   margin-top: 15%;
-  background: rgba(0, 0, 0, 0.7);
   width: 30%;
-  overflow: auto;
-  
-  
+  overflow: auto; 
 }
 .content h1{
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(10, 42, 71);
+  color: whitesmoke;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 90px;
 
 }
 .content p{
@@ -375,6 +376,7 @@ body.dark-theme{
   padding-block: 6rem 3rem;
   background-color: var(--body-color);
   display: flex;
+  padding-left: 10%;
   
 }
 .footer__data{
@@ -391,9 +393,13 @@ body.dark-theme{
 }
 .footer__social{
   column-gap: 1.5rem;
+  
 }
 .footer__social-link{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+}
+.footer__social-link i{
+  font-size: 3rem;
 }
 .footer__copy{
   margin-top: 7.5rem;
@@ -437,6 +443,7 @@ body.dark-theme{
   background-color: var(--body-color);
   color: var(--title-color);
   transition: background-color .4s;
+  border-radius: 15px;
 }
 .join__input::placeholder{
   color: var(--text-color);
@@ -472,7 +479,83 @@ body.dark-theme{
 .join__button{
   padding-block: 1.25rem;
   cursor: pointer;
+  border-radius: 15px;
 
+}
+/*=============== FEATURED ===============*/
+.featured__card{
+  position: relative;
+  text-align: center;
+  background-color: var(--container-color);
+  padding: 2rem;
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+  transition: border .4s, background-color .4s;
+
+}
+.featured__img{
+  width: 150px;
+  margin: 0 auto .75rem;
+  justify-content: center;
+
+}
+.featured_title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .5rem;
+}
+.featured__prices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .75rem;
+  margin-bottom: 1.25rem;
+}
+.featured__discount{
+  color: var(--title-color);
+
+}
+.featured__price{
+  font-size: var(--small-font-size);
+  text-decoration: line-through;
+}
+.featured__card .button{
+  cursor: pointer;
+
+}
+.featured__actions{
+  display:inline-flex;
+  flex-direction: column;
+  row-gap: .75rem;
+  position: absolute;
+  top: 2rem;
+  right: -1.5rem;
+  transition: right .4s;
+}
+.featured__actions button{
+  background: none;
+  font-size: 1.25rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+.featured__card:hover .featured__actions{
+  right: 1.5rem;
+}
+
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}
+.swiper-button-prev,
+.swiper-button-next{
+  width: initial;
+  height: initial;
+  background-color: var(--container-color);
+  border: 2px solid var(--border-color);
+  padding: .5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  transition: border .4s background-color .4s;
 }
 /*=============== DISCOUNT ===============*/
 .discount__container{
@@ -482,13 +565,16 @@ body.dark-theme{
 .discount__data{
   text-align: center;
   font-weight: bold;
+  padding-left: 45%;
 }
 .discount__title{
   margin-bottom: 1rem;
+  padding-left: 45%;
 }
 .discount__description{
   margin-bottom: 2rem;
   font-weight: bolder;
+  padding-left: 45%;
 }
 .discount__images{
   display: flex;
