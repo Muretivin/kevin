@@ -281,6 +281,7 @@ body.dark-theme{
 }
 .home__description{
   margin-bottom: 2rem;
+  padding: 15px;
 }
 .home__images{
   display: grid;
