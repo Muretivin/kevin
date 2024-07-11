@@ -309,13 +309,14 @@ body.dark-theme{
     
 }
 .content {
-  z-index: 999;
+  z-index: 1;
   position: relative;
   padding: 50px;
   float: left;
   margin-top: 15%;
-  width: 30%;
-  overflow: auto; 
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 15%;
 }
 .content h1{
   font-family: Arial, Helvetica, sans-serif;
@@ -626,6 +627,18 @@ body.dark-theme{
     margin-inline: 1rem;
 
   }
+  .content{
+    width: fit-content;
+  }
+  .content h1{
+    font-size: 20px;
+    width: fit-content;
+
+  }
+  .content p{
+    width: fit-content;
+    font-size: 15px;
+  }
 
   .nav__menu{
     padding-inline: 3rem;
@@ -711,6 +724,18 @@ body.dark-theme{
   .footer__container{
     grid-template-columns: repeat(2,max-content);
     justify-content: space-between;
+  }
+  .content{
+    width: fit-content;
+  }
+  .content h1{
+    font-size: 65px;
+    width: fit-content;
+
+  }
+  .content p{
+    width: fit-content;
+    font-size: 20px;
   }
 }
 
