@@ -672,12 +672,6 @@ body.dark-theme{
   .testimonial__card{
     width: 320px;
   }
-  .content h1{
-    font-size: 20px;
-    width: fit-content;
-    color: var(--container-color);
-
-  }
   
 }
 @media screen and (min-width: 450px){
@@ -715,12 +709,6 @@ body.dark-theme{
   .footer__data{
     grid-template-columns: repeat(3,max-content);
   }
-  .content h1{
-    font-size: 20px;
-    width: fit-content;
-    color: var(--container-color);
-
-  }
 }
 @media screen and (min-width: 450px){
   .home__container{
@@ -742,16 +730,7 @@ body.dark-theme{
   .content{
     width: fit-content;
   }
-  .content h1{
-    font-size: 65px;
-    width: fit-content;
-    color: var(--container-color);
-
-  }
-  .content p{
-    width: fit-content;
-    font-size: 20px;
-  }
+  
 }
 
 /* For large devices */
