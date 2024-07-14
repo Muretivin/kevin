@@ -276,10 +276,10 @@ body.dark-theme{
 }
 .home__title{
   font-size: var(--biggest-font-size);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .home__description{
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   padding: 15px;
 }
 .home__images{
@@ -545,12 +545,9 @@ body.dark-theme{
 }
 .mission{
   margin-left: 70px;
+  margin-top: -5px;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
 /* Swiper class */
 .swiper-button-prev::after,
 .swiper-button-next::after{
