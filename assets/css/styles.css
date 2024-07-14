@@ -543,7 +543,14 @@ body.dark-theme{
 .featured__card:hover .featured__actions{
   right: 1.5rem;
 }
+.mission{
+  margin-left: 70px;
+}
 
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
 /* Swiper class */
 .swiper-button-prev::after,
 .swiper-button-next::after{
