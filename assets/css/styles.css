@@ -14,6 +14,7 @@
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(230, 100%, 96%);
   --container-color: hsl(230, 100%, 97%);
+  --kevin-color: #43755A;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -485,7 +486,17 @@ body.dark-theme{
   border-radius: 15px;
 
 }
+/*====== kevin changes =====*/
+.home{
+  background-color: var(--kevin-color);
+}
+.discount{
+  background-color: var(--kevin-color);
+}
 /*=============== FEATURED ===============*/
+.featured{
+  background-color: var(--kevin-color);
+}
 .featured__card{
   position: relative;
   text-align: center;
