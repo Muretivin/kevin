@@ -348,7 +348,7 @@ body.dark-theme{
 
 }
 .meabout{
-  background: rgb(231, 229, 229,0.8);
+  background: var(--kevin-color);
   margin-top: 0%;
   padding-bottom: 10%;
   padding-top: 10%;
