@@ -141,6 +141,10 @@ body.dark-theme{
 .dark-theme .footer__copy{
   color: whitesmoke;
 }
+.dark-theme .home__description{
+  color: white;
+}
+
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -282,6 +286,7 @@ body.dark-theme{
 .home__description{
   margin-bottom: 0.5rem;
   padding: 15px;
+  color: white;
 }
 .home__images{
   display: grid;
@@ -593,6 +598,7 @@ body.dark-theme{
   margin-bottom: 2rem;
   font-weight: bolder;
   padding-left: 45%;
+  color: white;
 }
 .discount__images{
   display: flex;
