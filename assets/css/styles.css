@@ -504,18 +504,22 @@ body.dark-theme{
   height: 100vh;
   overflow: auto;
 }
+
 .background-img1:nth-child(1) {
   background-image: url('/assets/img/mtai3.jpg');
-  animation: slide 15s infinite 0s;
+  animation: slide 6s infinite 0s;
 }
-.background-img1:nth-child(2) {
+
+.background-img1:nth-child(3) {
   background-image: url('/assets/img/mtai2.jpg');
-  animation: slide 15s infinite 5s;
+  animation: slide 6s infinite 2s;
 }
 .background-img1:nth-child(3) {
   background-image: url('/assets/img/mtai1.jpg');
-  animation: slide 15s infinite 10s;
+  animation: slide 6s infinite 4s;
 }
+
+
 .background-img1 {
   position: absolute;
   width: 100%;
@@ -525,10 +529,12 @@ body.dark-theme{
   opacity: 0;
   transition: opacity 1s;
 }
+
 @keyframes slide {
   0%, 100% { opacity: 1; }
   8.33%, 91.67% { opacity: 0; }
 }
+
 .background-image2 {
   position: relative;
   width: 100%;
@@ -593,7 +599,13 @@ body.dark-theme{
 
 }
 .newkevcontent li{
-  text-align: center;
+  text-align: justify;
+  list-style-type: square;
+  
+}
+.newkevin2{
+  text-align: justify;
+  margin-left: 10px;
 }
 .carousel {
   width: 80%;
@@ -651,35 +663,39 @@ body.dark-theme{
 /*=============== GLOBAL ===============*/
 .background-pic:nth-child(1) {
   background-image: url('/assets/img/global\ 1.jpg');
-  animation: slide 40s infinite 0s;
+  animation: slide 36s infinite 0s;
 }
 .background-pic:nth-child(2) {
   background-image: url('/assets/img/global\ 2.jpg');
-  animation: slide 40s infinite 5s;
+  animation: slide 36s infinite 4s;
 }
 .background-pic:nth-child(3) {
   background-image: url('/assets/img/global\ 3.jpg');
-  animation: slide 40s infinite 10s;
+  animation: slide 36s infinite 8s;
 }
 .background-pic:nth-child(4) {
   background-image: url('/assets/img/global\ 4.jpg');
-  animation: slide 40s infinite 15s;
+  animation: slide 36s infinite 12s;
 }
 .background-pic:nth-child(5) {
   background-image: url('/assets/img/global\ 5.jpg');
-  animation: slide 40s infinite 20s;
+  animation: slide 36s infinite 16s;
 }
 .background-pic:nth-child(6) {
   background-image: url('/assets/img/global\ 6.jpg');
-  animation: slide 40s infinite 25s;
+  animation: slide 36s infinite 20s;
 }
 .background-pic:nth-child(7) {
   background-image: url('/assets/img/global\ 7.jpg');
-  animation: slide 40s infinite 30s;
+  animation: slide 36s infinite 24s;
 }
 .background-pic:nth-child(8) {
   background-image: url('/assets/img/global\ 8.jpg');
-  animation: slide 40s infinite 35s;
+  animation: slide 36s infinite 28s;
+}
+.background-pic:nth-child(8) {
+  background-image: url('/assets/img/global\ 8.jpg');
+  animation: slide 36s infinite 32s;
 }
 .background-pic {
   position: absolute;
@@ -879,6 +895,10 @@ body.dark-theme{
 @keyframes slide {
   0%, 100% { opacity: 1; }
   8.33%, 91.67% { opacity: 0; }
+}
+.newkevin1{
+  color: rgb(153, 148, 123);
+  font-size: 38px;
 }
 
 /*=============== FEATURED ===============*/
