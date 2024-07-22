@@ -507,16 +507,36 @@ body.dark-theme{
 
 .background-img1:nth-child(1) {
   background-image: url('/assets/img/mtai3.jpg');
-  animation: slide 6s infinite 0s;
+  animation: slide 32s infinite 0s;
 }
 
-.background-img1:nth-child(3) {
+.background-img1:nth-child(2) {
   background-image: url('/assets/img/mtai2.jpg');
-  animation: slide 6s infinite 2s;
+  animation: slide 32s infinite 4s;
 }
 .background-img1:nth-child(3) {
   background-image: url('/assets/img/mtai1.jpg');
-  animation: slide 6s infinite 4s;
+  animation: slide 32s infinite 8s;
+}
+.background-img1:nth-child(4) {
+  background-image: url('/assets/img/to\ 1.jpg');
+  animation: slide 32s infinite 12s;
+}
+.background-img1:nth-child(5) {
+  background-image: url('/assets/img/selected\ 4.jpg');
+  animation: slide 32s infinite 16s;
+}
+.background-img1:nth-child(6) {
+  background-image: url('/assets/img/selected\ 2.jpg');
+  animation: slide 32s infinite 20s;
+}
+.background-img1:nth-child(7) {
+  background-image: url('/assets/img/community\ 2.jpg');
+  animation: slide 32s infinite 24s;
+}
+.background-img1:nth-child(8) {
+  background-image: url('/assets/img/community\ 1.jpg');
+  animation: slide 632 infinite 28s;
 }
 
 
@@ -540,28 +560,28 @@ body.dark-theme{
   width: 100%;
   height: 100vh;
   overflow: auto;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .background-image3 {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: auto;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .background-image4 {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: auto;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .background-image5 {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: auto;
-  padding-top: 7px;
+  padding-top: 10px;
 
 }
 
