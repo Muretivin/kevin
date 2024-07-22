@@ -527,7 +527,7 @@ body.dark-theme{
 }
 @keyframes slide {
   0%, 100% { opacity: 1; }
-  33%, 66% { opacity: 0; }
+  8.33%, 91.67% { opacity: 0; }
 }
 .background-image2 {
   position: relative;
@@ -646,7 +646,7 @@ body.dark-theme{
 }
 @keyframes slide {
   0%, 100% { opacity: 1; }
-  33%, 66% { opacity: 0; }
+  8.33%, 91.67% { opacity: 0; }
 }
 /*=============== GLOBAL ===============*/
 .background-pic:nth-child(1) {
@@ -692,7 +692,7 @@ body.dark-theme{
 }
 @keyframes slide {
   0%, 100% { opacity: 1; }
-  33%, 66% { opacity: 0; }
+  8.33%, 91.67% { opacity: 0; }
 }
 /*=============== to ===============*/
 .background-jpg {
