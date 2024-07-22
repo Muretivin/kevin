@@ -498,6 +498,364 @@ body.dark-theme{
 .discount{
   background-color: var(--kevin-color);
 }
+.background-image1 {
+  position: relative;
+  background: url('../img/mtai1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  overflow: auto;
+}
+.background-image2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 7px;
+}
+.background-image3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 7px;
+}
+.background-image4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 7px;
+}
+.background-image5 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 7px;
+
+}
+
+.content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 15%;
+  overflow: auto;
+}
+
+.newkevin, .newkevcontent {
+  margin: 0 0 20px;
+  color: white; /* Ensure text is readable on black background */
+  text-align: center;
+}
+
+.newkevcontent {
+  text-align: justify; 
+  margin: 0; 
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: auto;
+
+}
+.newkevcontent li{
+  text-align: center;
+}
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+.background-img:nth-child(1) {
+  background-image: url('/assets/img/selected\ 1.jpg');
+  animation: slide 40s infinite 0s;
+}
+.background-img:nth-child(2) {
+  background-image: url('/assets/img/selected\ 2.jpg');
+  animation: slide 40s infinite 5s;
+}
+.background-img:nth-child(3) {
+  background-image: url('/assets/img/selected\ 3.jpg');
+  animation: slide 40s infinite 10s;
+}
+.background-img:nth-child(4) {
+  background-image: url('/assets/img/selected\ 4.jpg');
+  animation: slide 40s infinite 15s;
+}
+.background-img:nth-child(5) {
+  background-image: url('/assets/img/selected\ 5.jpg');
+  animation: slide 40s infinite 20s;
+}
+.background-img:nth-child(6) {
+  background-image: url('/assets/img/selected\ 6.jpg');
+  animation: slide 40s infinite 25s;
+}
+.background-img:nth-child(7) {
+  background-image: url('/assets/img/selected\ 7.jpg');
+  animation: slide 40s infinite 30s;
+}
+.background-img:nth-child(8) {
+  background-image: url('/assets/img/selected\ 8.jpg');
+  animation: slide 40s infinite 35s;
+}
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+@keyframes slide {
+  0%, 100% { opacity: 1; }
+  33%, 66% { opacity: 0; }
+}
+/*=============== GLOBAL ===============*/
+.background-pic:nth-child(1) {
+  background-image: url('/assets/img/global\ 1.jpg');
+  animation: slide 40s infinite 0s;
+}
+.background-pic:nth-child(2) {
+  background-image: url('/assets/img/global\ 2.jpg');
+  animation: slide 40s infinite 5s;
+}
+.background-pic:nth-child(3) {
+  background-image: url('/assets/img/global\ 3.jpg');
+  animation: slide 40s infinite 10s;
+}
+.background-pic:nth-child(4) {
+  background-image: url('/assets/img/global\ 4.jpg');
+  animation: slide 40s infinite 15s;
+}
+.background-pic:nth-child(5) {
+  background-image: url('/assets/img/global\ 5.jpg');
+  animation: slide 40s infinite 20s;
+}
+.background-pic:nth-child(6) {
+  background-image: url('/assets/img/global\ 6.jpg');
+  animation: slide 40s infinite 25s;
+}
+.background-pic:nth-child(7) {
+  background-image: url('/assets/img/global\ 7.jpg');
+  animation: slide 40s infinite 30s;
+}
+.background-pic:nth-child(8) {
+  background-image: url('/assets/img/global\ 8.jpg');
+  animation: slide 40s infinite 35s;
+}
+.background-pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+@keyframes slide {
+  0%, 100% { opacity: 1; }
+  33%, 66% { opacity: 0; }
+}
+/*=============== to ===============*/
+.background-jpg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.background-jpg:nth-child(1) {
+  background-image: url('/assets/img/to 1.jpg');
+  animation: slide 88s infinite 0s;
+}
+
+.background-jpg:nth-child(2) {
+  background-image: url('/assets/img/to 2.jpg');
+  animation: slide 88s infinite 4s;
+}
+
+.background-jpg:nth-child(3) {
+  background-image: url('/assets/img/to 3.jpg');
+  animation: slide 88s infinite 8s;
+}
+
+.background-jpg:nth-child(4) {
+  background-image: url('/assets/img/to 4.jpg');
+  animation: slide 88s infinite 12s;
+}
+
+.background-jpg:nth-child(5) {
+  background-image: url('/assets/img/to 5.jpg');
+  animation: slide 88s infinite 16s;
+}
+
+.background-jpg:nth-child(6) {
+  background-image: url('/assets/img/to 6.jpg');
+  animation: slide 88s infinite 20s;
+}
+
+.background-jpg:nth-child(7) {
+  background-image: url('/assets/img/to 7.jpg');
+  animation: slide 88s infinite 24s;
+}
+
+.background-jpg:nth-child(8) {
+  background-image: url('/assets/img/to 8.jpg');
+  animation: slide 88s infinite 28s;
+}
+
+.background-jpg:nth-child(9) {
+  background-image: url('/assets/img/to 9.jpg');
+  animation: slide 88s infinite 32s;
+}
+
+.background-jpg:nth-child(10) {
+  background-image: url('/assets/img/to 10.jpg');
+  animation: slide 88s infinite 36s;
+}
+
+.background-jpg:nth-child(11) {
+  background-image: url('/assets/img/to 11.jpg');
+  animation: slide 88s infinite 40s;
+}
+
+.background-jpg:nth-child(12) {
+  background-image: url('/assets/img/to 12.jpg');
+  animation: slide 88s infinite 44s;
+}
+
+.background-jpg:nth-child(13) {
+  background-image: url('/assets/img/to 13.jpg');
+  animation: slide 88s infinite 48s;
+}
+
+.background-jpg:nth-child(14) {
+  background-image: url('/assets/img/to 14.jpg');
+  animation: slide 88s infinite 52s;
+}
+
+.background-jpg:nth-child(15) {
+  background-image: url('/assets/img/to 15.jpg');
+  animation: slide 88s infinite 56s;
+}
+
+.background-jpg:nth-child(16) {
+  background-image: url('/assets/img/to 16.jpg');
+  animation: slide 88s infinite 60s;
+}
+
+.background-jpg:nth-child(17) {
+  background-image: url('/assets/img/to 17.jpg');
+  animation: slide 88s infinite 64s;
+}
+
+.background-jpg:nth-child(18) {
+  background-image: url('/assets/img/to 18.jpg');
+  animation: slide 88s infinite 68s;
+}
+
+.background-jpg:nth-child(19) {
+  background-image: url('/assets/img/to 19.jpg');
+  animation: slide 88s infinite 72s;
+}
+
+.background-jpg:nth-child(20) {
+  background-image: url('/assets/img/to 20.jpg');
+  animation: slide 88s infinite 76s;
+}
+
+.background-jpg:nth-child(21) {
+  background-image: url('/assets/img/to 21.jpg');
+  animation: slide 88s infinite 80s;
+}
+
+.background-jpg:nth-child(22) {
+  background-image: url('/assets/img/to 22.jpg');
+  animation: slide 88s infinite 84s;
+}
+
+@keyframes slide {
+  0%, 100% { opacity: 1; }
+  8.33%, 91.67% { opacity: 0; }
+}
+
+
+.background-gif {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.background-gif:nth-child(1) {
+  background-image: url('/assets/img/tourna\ 1.jpg');
+  animation: slide 36s infinite 0s;
+}
+
+.background-gif:nth-child(2) {
+  background-image: url('/assets/img/tourna\ 2.jpg');
+  animation: slide 36s infinite 4s;
+}
+
+.background-gif:nth-child(3) {
+  background-image: url('/assets/img/tourna\ 3.jpg');
+  animation: slide 36s infinite 8s;
+}
+
+.background-gif:nth-child(4) {
+  background-image: url('/assets/img/tourna\ 4.jpg');
+  animation: slide 36s infinite 12s;
+}
+
+.background-gif:nth-child(5) {
+  background-image: url('/assets/img/tourna\ 5.jpg');
+  animation: slide 36s infinite 16s;
+}
+
+.background-gif:nth-child(6) {
+  background-image: url('/assets/img/tourna\ 6.jpg');
+  animation: slide 36s infinite 20s;
+}
+
+.background-gif:nth-child(7) {
+  background-image: url('/assets/img/tourna\ 7.jpg');
+  animation: slide 36s infinite 24s;
+}
+
+.background-gif:nth-child(8) {
+  background-image: url('/assets/img/tourna\ 8.jpg');
+  animation: slide 36s infinite 28s;
+}
+
+.background-gif:nth-child(9) {
+  background-image: url('/assets/img/tourna\ 9.jpg');
+  animation: slide 36s infinite 32s;
+}
+
+@keyframes slide {
+  0%, 100% { opacity: 1; }
+  8.33%, 91.67% { opacity: 0; }
+}
+
 /*=============== FEATURED ===============*/
 .featured{
   background-color: var(--kevin-color);

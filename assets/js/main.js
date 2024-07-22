@@ -140,14 +140,10 @@ const sr = ScrollReveal({
     duration: 2500,
     delay: 400,
 })
-sr.reveal(`.home__data, .featured__container, .new__container,
-           .join__data, .testominial__container, .footer`)
+sr.reveal(`.background-image2, .background-image3, .background-image4,
+           .background-image5, .testominial__container, .footer`)
 sr.reveal(`.home__images`,{delay: 600})
 sr.reveal(`.services__card`,{interval: 100})
 sr.reveal(`.discount__data`,{origin: 'left'})
 sr.reveal(`.discount__iamges`,{origin: 'right'})
-
-
-
-
 
