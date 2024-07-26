@@ -604,7 +604,13 @@ body.dark-theme{
   overflow: auto;
 }
 
-.newkevin, .newkevcontent {
+.newkevin {
+  color: hsl(148, 18%, 65%);
+  font-size: 38px;
+
+}
+
+.newkevcontent {
   margin: 0 0 20px;
   color: white; /* Ensure text is readable on black background */
   text-align: center;
@@ -616,6 +622,19 @@ body.dark-theme{
   padding-left: 10%;
   padding-right: 10%;
   overflow: auto;
+  font-size: 21px;
+
+
+}
+
+.sub {
+  text-align: justify; 
+  margin: 0; 
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: auto;
+  font-size: 23px;
+  color: #85b29a;
 
 }
 .newkevcontent li{
@@ -917,8 +936,8 @@ body.dark-theme{
   8.33%, 91.67% { opacity: 0; }
 }
 .newkevin1{
-  color: rgb(153, 148, 123);
-  font-size: 38px;
+  color: #12d158;
+  font-size: 46px;
 }
 
 /*=============== FEATURED ===============*/
